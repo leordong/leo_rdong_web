@@ -11,9 +11,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1  Leo Test Web for Pixel
-## Header 2
-### Header 3
+Leo Test Web for Pixel
 
 - Bulleted
 - List
@@ -23,7 +21,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](https://eko.com/buzzfeed-tasty-eko-fast/meatballs-fast?autoplay=true/embed) and ![Image](src)
+[Eko Cooking](https://eko.com/buzzfeed-tasty-eko-fast/meatballs-fast?autoplay=true/embed) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
