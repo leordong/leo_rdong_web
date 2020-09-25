@@ -8,7 +8,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
+
 Syntax highlighted code block
 
 Leo Test Web for Pixel
@@ -23,7 +23,7 @@ Leo Test Web for Pixel
 
 [Eko Cooking](https://eko.com/buzzfeed-tasty-eko-fast/meatballs-fast?autoplay=true/embed)
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-```
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
