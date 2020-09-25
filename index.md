@@ -21,7 +21,8 @@ Leo Test Web for Pixel
 
 **Bold** and _Italic_ and `Code` text
 
-[Eko Cooking](https://eko.com/buzzfeed-tasty-eko-fast/meatballs-fast?autoplay=true/embed) and ![Image](src)
+[Eko Cooking](https://eko.com/buzzfeed-tasty-eko-fast/meatballs-fast?autoplay=true/embed)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
