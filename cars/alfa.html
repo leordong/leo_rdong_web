@@ -30,12 +30,10 @@
     <h1>Page for product 1</h1>
     <img src="Alfa-Romeo-Stelvio-Q-performance-review-feature.jpg" alt="white">
     <h2>price: $32k </h2>
-    <li><a href="https://leordong.github.io/leo_rdong_web/checkout/checkout.html">Checkout</a></li>
-    <p onclick="myFunction(this, 'red')">Add to cart</p>
-
+    <li><a href="https://leordong.github.io/leo_rdong_web/checkout/checkout.html" onclick="myFunction()"> Checkout</a></li>
     <script>
-    function myFunction(elmnt,clr) {
-      elmnt.style.color = clr;
+    function myFunction() {
+      alert( 'Clicked it!' )
       ttq.track('Checkout', {
         value: '1'
       });
