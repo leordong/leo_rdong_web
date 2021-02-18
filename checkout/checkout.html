@@ -20,9 +20,12 @@
   <body>
     <h1>Page for Checkout</h1>
     <script>
-    ttq.instance('C0MRK8KP76SVVJ0VAT10').identify({
+    ttq.identify({
         external_id: '123456',
         email: 'dongx205@umn.edu',
+      });
+    ttq.track('Checkout', {
+        value: '1'
       });
     <script>
   </body>
