@@ -25,10 +25,11 @@
   </head>
   <body>
     <script>
-    ttq.identify('123', {
-    email: 'foo@bar.com', // we will hash with sha-256
-    phone_number: '+12133734253', // we will hash with sha-256
-    })
+    ttq.identify({
+    external_id: '12345',
+    email: 'foo@bar.com',
+    phone_number: '+19171234567',
+})
       
      ttq.track('AddToCart');
     </script>
