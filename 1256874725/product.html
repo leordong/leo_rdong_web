@@ -24,6 +24,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <title>Product 2</title>
     
     <script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+
+  ttq.load('C7PASHJ9OPOOJ4K3UTPG');
+  ttq.page();
+}(window, document, 'ttq');
+</script>
+    
+    <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -64,6 +73,48 @@ src="https://www.facebook.com/tr?id=962965104505467&ev=PageView&noscript=1"
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBGG2KL"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+    
+    <script>   
+
+// put the event code after the Advanced Matching code, see below for a sample event
+
+ttq.identify({
+    external_id: '123',
+    email: 'dongx205@umn.edu',
+    phone_number: '+16122229420',
+})
+
+
+ttq.track('AddToCart', {
+    content_id: '301',
+    content_type: 'product',
+    content_name: 'dress',
+    quantity: 1,
+    price: 8,
+    value: 9.2,
+    currency: 'USD',
+});
+    
+
+</script>
+    
+  ttq.identify({
+    external_id: '123',
+    sha256_email: 'ed941bd48cffe1696beb7186cbbc826f51e4f1cccc4d4b135e5802782a8a48c7', // Use lowercase prior to hashing
+    sha256_phone_number: 'b0c56095f3ee41a3c3c3f020d4ba0bbcebf9b3fe85c4a6b7e2938f6e8588c51a',
+})
+
+
+ttq.track('ViewContent', {
+    content_id: '301',
+    content_type: 'product',
+    content_name: 'dress',
+    quantity: 1,
+    price: 8,
+    value: 9.2,
+    currency: 'USD',
+});
+      
     
     
    <h1>Unisex Heavy Cotton Tee</h1>
