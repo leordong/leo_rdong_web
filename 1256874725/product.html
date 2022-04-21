@@ -84,8 +84,25 @@ ttq.identify({
     phone_number: '+16122229420',
 })
 
-ttq.track('AddToCart', 
-{event_id:'1239485'});
+ttq.track('AddToCart', {
+   mmp_contents: [
+    {
+      content_id: '301',
+      content_type: 'product',
+      content_name: 'dress',
+      quantity: 1,
+      price: 8,
+    },
+    {
+      content_id: '401',
+      content_type: 'product',
+      content_name: 'dress',
+      quantity: 1,
+      price: 1.2,
+    }],
+    value: 9.2,
+    currency: 'USD',
+});
 
 </script>
     
