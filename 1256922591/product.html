@@ -87,6 +87,38 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       ttq.track('AddPaymentInfo')
     </script>
     
+    <script>   
+
+// put the event code after the Advanced Matching code, see below for a sample event
+
+ttq.identify({
+    external_id: '123',
+    email: 'ed941bd48cffe1696beb7186cbbc826f51e4f1cccc4d4b135e5802782a8a48c7',
+    phone_number: 'ed941bd48cffe1696beb7186cbbc826f51e4f1cccc4d4b135e5802782a8a48c7',
+})
+
+ttq.track('AddToCart', {
+   contents: [
+    {
+      content_id: '301',
+      content_type: 'product',
+      content_name: 'dress',
+      quantity: 1,
+      price: 8,
+    },
+    {
+      content_id: '401',
+      content_type: 'product',
+      content_name: 'dress',
+      quantity: 1,
+      price: 1.2,
+    }],
+    value: 9.2,
+    currency: 'USD',
+});
+
+</script>
+    
   
   </body>
 </html>
